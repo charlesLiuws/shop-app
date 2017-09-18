@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>shop</title><link href=/static/css/app.c68887ce4014ebf39c5088f6b0e022bc.css rel=stylesheet></head><body><div id=app></div><script>window.onload = function(){
+            getRem(750,100)
+        };
+        window.onresize = function(){
+            getRem(750,100)
+        };
+        function getRem(pwidth,prem){
+            var html = document.getElementsByTagName("html")[0];
+            var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+            html.style.fontSize = oWidth/pwidth*prem + "px";
+        }</script><script type=text/javascript src=/static/js/manifest.645c43cd162b865b38bc.js></script><script type=text/javascript src=/static/js/vendor.7884eeb92dcb475906aa.js></script><script type=text/javascript src=/static/js/app.befc150d561a46bdda4e.js></script></body></html>
